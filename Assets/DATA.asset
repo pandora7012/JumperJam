@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b963edfa1a06aa44d8ed671940a21b74, type: 3}
+  m_Name: DATA
+  m_EditorClassIdentifier: 
+  characters:
+  - die: {fileID: -1815625823664879899, guid: 02224c632bb5a0e419949d139dfec8e8, type: 3}
+    idle: {fileID: 4723107735738678597, guid: 6114368618eccfa4fa33bde3a28dec1a, type: 3}
+    jump: {fileID: 7460046300004610927, guid: a07fd426a4236b64ba7a9611ee1f807b, type: 3}
+    Trigger: 1
+    cost: 0
+    ID: 0
+  - die: {fileID: 21300000, guid: 9da443e0a9d23fc4f87c471f2f6ffca5, type: 3}
+    idle: {fileID: 21300000, guid: e7ec8bbeafc52ec40a52de458dd38318, type: 3}
+    jump: {fileID: 21300000, guid: 5fbae5658c31c4f459389733c3b30b4b, type: 3}
+    Trigger: 1
+    cost: 15
+    ID: 1
+  - die: {fileID: 21300000, guid: 190ec0c485c860e4fabd5bfce0d19392, type: 3}
+    idle: {fileID: 21300000, guid: ce5b18209f06b0d4886305fa027fd664, type: 3}
+    jump: {fileID: 21300000, guid: 61926d21b4b4e2b4fbb5c96dcfa1d908, type: 3}
+    Trigger: 0
+    cost: 30
+    ID: 2
+  - die: {fileID: 21300000, guid: fd23eb1a6d9d09d418e26d927b3afa5b, type: 3}
+    idle: {fileID: 21300000, guid: ea56ec98af0ed52469301c2746ab919c, type: 3}
+    jump: {fileID: 21300000, guid: c8637812c56e9324da0ef7563f42f001, type: 3}
+    Trigger: 0
+    cost: 45
+    ID: 3
+  - die: {fileID: 21300000, guid: a23fec260570e024fb558642db4e5769, type: 3}
+    idle: {fileID: 21300000, guid: 262d2bab0a50b9f48a380aef054116ce, type: 3}
+    jump: {fileID: 21300000, guid: 502834d857acc41458c9fb1232afbde9, type: 3}
+    Trigger: 0
+    cost: 60
+    ID: 4
+  - die: {fileID: 21300000, guid: 4179767e6c35cfb4ba929e517663f6c9, type: 3}
+    idle: {fileID: 21300000, guid: df86b7f4bea126c4e9db3a7f1d347ccd, type: 3}
+    jump: {fileID: 21300000, guid: 3c24b1e777db39248a48e9d5236a3fce, type: 3}
+    Trigger: 0
+    cost: 75
+    ID: 5
+  - die: {fileID: 21300000, guid: 2b7dbdc69980a0a4fbdc5922a65b278b, type: 3}
+    idle: {fileID: 21300000, guid: ab384e89b8aa3f4499a93141b4b7e083, type: 3}
+    jump: {fileID: 21300000, guid: a13213bc6754d244ea312839d591208e, type: 3}
+    Trigger: 0
+    cost: 90
+    ID: 6
+  - die: {fileID: 21300000, guid: 16c6eaec06972a94aa56525e1c9994c3, type: 3}
+    idle: {fileID: 21300000, guid: 496186ece8494b041bf9e38b9559981e, type: 3}
+    jump: {fileID: 21300000, guid: e15cb18bedb01b24880706d54f7a77be, type: 3}
+    Trigger: 0
+    cost: 100
+    ID: 7
+  - die: {fileID: 21300000, guid: 80bcb9d727267d846b8b0b1b50faa6b1, type: 3}
+    idle: {fileID: 21300000, guid: 4efff39aa6ca8af458874ff36fcb4627, type: 3}
+    jump: {fileID: 21300000, guid: d8768a808775f8646816fe6a455197cf, type: 3}
+    Trigger: 0
+    cost: 125
+    ID: 8
+  maps:
+  - layer1: {fileID: 21300000, guid: f7b45bef7892c2c4a98d0f935152a026, type: 3}
+    layer2: {fileID: 21300000, guid: 7218f089b1deeec42a366caa24350da9, type: 3}
+    layer3: {fileID: 21300000, guid: 3c39dfba6d77dfd418a4d0da3f5968c8, type: 3}
+    ID: 0
+    platform: {fileID: 21300000, guid: 1cf38d7cb4fb0164d960c28093dea281, type: 3}
+  - layer1: {fileID: 21300000, guid: b162654b9bddd7044a657f966f17542a, type: 3}
+    layer2: {fileID: 21300000, guid: 7e013634a8c73064191769e690e0c8e3, type: 3}
+    layer3: {fileID: 21300000, guid: 4d39a455d005b784a9d240401170f0cf, type: 3}
+    ID: 1
+    platform: {fileID: 21300000, guid: 7e53c95f72980c44d935f5459c931a5f, type: 3}
+  - layer1: {fileID: 21300000, guid: e1c65ad4af6e65c41a4cffd89b121e50, type: 3}
+    layer2: {fileID: 21300000, guid: 86ad2647f0ae334498aa826808a51dbc, type: 3}
+    layer3: {fileID: 21300000, guid: e6320b33757edfa428485aca02f0e4ef, type: 3}
+    ID: 2
+    platform: {fileID: 21300000, guid: bcf9e6bb0e670c94ab8f4bd469c86038, type: 3}
+  - layer1: {fileID: 21300000, guid: 523b8d129763e5d4cb480228b58198ae, type: 3}
+    layer2: {fileID: 21300000, guid: b0e2c65505881bb4bb33745170b0df09, type: 3}
+    layer3: {fileID: 21300000, guid: cc8c69bb757945e408008d716bf9f611, type: 3}
+    ID: 3
+    platform: {fileID: 21300000, guid: d6b68e74c50125845a0238a2147733df, type: 3}
+  - layer1: {fileID: 21300000, guid: 1c4f91115cc44ca4bad0c2254565dd63, type: 3}
+    layer2: {fileID: 21300000, guid: 1b044d6a40e77354f98c229930664b8c, type: 3}
+    layer3: {fileID: 21300000, guid: e169d6381af1dcb42a3e7d7d3a4756f4, type: 3}
+    ID: 4
+    platform: {fileID: 21300000, guid: acc312c595be7fd48b1646f0a81e85b1, type: 3}

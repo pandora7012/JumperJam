@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0e9033d0e460b7a4f9a39478da4d0337
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Pangolin
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fc559590479c22e4ca938dfa61eb4dc2, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
